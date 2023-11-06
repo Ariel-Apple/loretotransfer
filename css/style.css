@@ -561,6 +561,7 @@ figure figcaption {
   margin: 0;
   width: 100%;
   margin-left: -2%;
+  background: white;
 }
 @media screen and (max-width: 768px) {
   #gtco-post-list {
@@ -569,7 +570,7 @@ figure figcaption {
 }
 #gtco-post-list li {
   display: block;
-  padding: 0;
+  padding: 10px;
   margin: 0 0 20px 2%;
   list-style: none;
   min-height: 400px;
@@ -579,7 +580,6 @@ figure figcaption {
   float: left;
   clear: left;
   position: relative;
-  background: #fff;
 }
 @media screen and (max-width: 768px) {
   #gtco-post-list li {
@@ -990,6 +990,8 @@ figure figcaption {
   #gtco-footer {
     padding: 3em 0;
   }
+
+
 }
 
 #gtco-testimonial {
@@ -2130,42 +2132,143 @@ figure figcaption {
   color: black;
   border-radius: 2rem;
 }
-/* .email {
-  width:60px;
-  height:60px;
-  bottom:30px;
-  right:30px;
-  color:white;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  z-index:100;
-  text-decoration: none;
-  box-shadow: 0px 0px 10px #25d366 ;
-}
-.whatsapp {
-  width:60px;
-  height:60px;
-  bottom:30px;
-  right:30px;
-  background-color:#25d366;
-  color:white;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  z-index:100;
-  text-decoration: none;
-  box-shadow: 0px 0px 10px #25d366 ;
+
+.private-rates {
+  background: #46dad0;
+  text-align: center;
+  font-weight: 700;
 }
 
-.whatsapp:hover{
-  box-shadow: 0px 0px 50px #25d366 ;
+.suburban {
+  background: #e5e4e4;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  gap: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+.white{
+  background: white;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  gap: 5em;
+  text-align: center;
+  justify-content: center;
+  margin-left: 18%;
+}
+
+@media screen and (max-width: 768px) {
+  .white{
+    display: none;
+  }
+  .suburban {
+font-size: 12px;
+  }
+  .column {
+    font-size: 11px;
+  }
+
 
 }
 
-.icon-whatsapp{
+/* Estilos para el contenedor de la tabla */
+.table-container {
+  overflow-x: auto;  /* Habilita el scroll horizontal si es necesario */
+  max-width: 100%;   /* Asegura que el contenedor se ajuste al ancho de la pantalla */
+}
+
+/* Estilos para la tabla */
+.table-container table {
+  width: 100%;  /* Asegura que la tabla ocupe todo el ancho del contenedor */
+}
+
+.color {
+  background: white;
+
+}
+.column{
+  background: #e5e4e4;
+
+}
+
+.experts {
   color: white;
-  position: absolute;
-  margin-top: 13px;
-  margin-left: -14px;
+}
+.connect {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+.phone-email {
+display: flex;
+justify-content: center;
+gap: 20em;
+}
+
+.phone{
+  color: white;
+  font-size: 22px;
+}
+.num {
+  color: white;
+
+}
+.email{
+  font-size: 22px;
+
+}
+
+.text-email {
+  color: white;
+  font-size: 18px;
+
+}
+
+.social-address {
+  display: flex;
+  justify-content: center;
+gap: 20em;
+  
+}
+.address {
+  color: white;
+  display: grid;
+  font-size: 18px;
+
+}
+
+/*  .email {
+  width:60px;
+  height:60px;
+  bottom:30px;
+  right:30px;
+  color:white;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px #25d366 ;
 } */
+
+#list-contact {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  float: left;
+  padding: 15px;
+  margin: 0;
+  width: 100%;
+  margin-left: -2%;
+  background: gray;
+}
