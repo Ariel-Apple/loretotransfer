@@ -840,6 +840,7 @@ figure figcaption {
 .gtco-contact-info ul {
   padding: 0;
   margin: 0;
+  background-color: #000;
 }
 .gtco-contact-info ul li {
   padding: 0 0 0 70px;
@@ -2329,22 +2330,7 @@ gap: 20em;
   width: 50%;
   margin-bottom: 40px;
 }
-.fh5co-contact-us{
-    flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  position: relative;
-  float: left;
-  padding: 15px;
-  margin: 0;
-  width: 100%;
-  background: white;
-  }
+
 
   .contact-info {
     display: grid;
@@ -2354,12 +2340,48 @@ gap: 20em;
     margin-top: -10em;
   }
 
-  @media screen and (max-width: 767px) {
-    .margin {
-      margin-top: -6em;
-    }
-    .margin-service{
-      margin-top: -6em;
 
-    }
+.bg-contact {
+  background: white;
+  padding: 5em;
+  margin-top: 15em;
+}
+#fh5co-contact {
+  background-color: white;
+
+
+}
+.contact-info {
+  background-color: #000;
+  color: white;
+  list-style: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 14px ;
+}
+
+.adress{
+  color: white;
+  font-size: 17px;
+}
+.box-contact {
+  padding: 50px ;
+
+}
+
+@media screen and (max-width: 767px) {
+  .margin {
+    margin-top: -6em;
   }
+  .margin-service{
+    margin-top: -6em;
+
+  }
+  .box-contact {
+    padding: 0 ;
+  
+  }
+}
+.contact-a a{
+  color: white;
+}
