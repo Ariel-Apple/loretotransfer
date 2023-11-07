@@ -657,6 +657,9 @@ figure figcaption {
   float: left;
   width: 100%;
 }
+.margin {
+  margin-top: -150px;
+}
 .entry.one-half {
   width: 50%;
   margin-right: 20px;
@@ -2241,12 +2244,12 @@ color: white;
 }
 
 .experts {
-  color: white;
+  color: black;
 }
 .connect {
   text-align: center;
   font-size: 70px;
-  color: white;
+  color: black;
 }
 
 .phone-email {
@@ -2301,23 +2304,7 @@ gap: 20em;
   box-shadow: 0px 0px 10px #25d366 ;
 } */
 
-#list-contact {
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  position: relative;
-  float: left;
-  padding: 15px;
-  margin: 0;
-  width: 100%;
-  margin-left: -2%;
-  background: gray;
-}
+
 #about-list {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
@@ -2342,3 +2329,37 @@ gap: 20em;
   width: 50%;
   margin-bottom: 40px;
 }
+.fh5co-contact-us{
+    flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  float: left;
+  padding: 15px;
+  margin: 0;
+  width: 100%;
+  background: white;
+  }
+
+  .contact-info {
+    display: grid;
+    gap: 2rem;
+  }
+  .margin {
+    margin-top: -10em;
+  }
+
+  @media screen and (max-width: 767px) {
+    .margin {
+      margin-top: -6em;
+    }
+    .margin-service{
+      margin-top: -6em;
+
+    }
+  }
