@@ -574,7 +574,7 @@ figure figcaption {
   display: flex;
   position: relative;
   float: left;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   width: 100%;
   margin-left: -2%;
@@ -2179,7 +2179,7 @@ figure figcaption {
   color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .white{
     display: none;
   }
