@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   text-transform: uppercase;
   font-weight: bold;
+  width: 30em;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav #gtco-logo {
@@ -299,11 +300,23 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .gtco-cover {
   height: 900px;
+  background-image: url('../images/auto.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   float: left;
   width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .gtco-cover {
+    height: 900px;
+    background-image: url('../images/auto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    width: 100%;
+  }
 }
 .gtco-cover .overlay {
   z-index: 0;
