@@ -23,9 +23,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-whatsapp2:before {
-  content: "\eac3";
+
+.icon-whatsapp:before {
+  content: "\ea93";
 }
+
 .icon-eye:before {
   content: "\e000";
 }
