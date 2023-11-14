@@ -2348,6 +2348,10 @@ gap: 20em;
   .margin {
     margin-top: -3em;
   }
+  .title-service {
+    color: burlywood;
+    font-weight: 800;
+  }
 
 
 .bg-contact {
